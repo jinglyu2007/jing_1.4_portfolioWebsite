@@ -2,12 +2,19 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/23d9c3f2a3.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="LOGO@32x32.png" sizes="32x32">
     <title>Jing UX/UI Design</title>
   </head>
+
   <body>
     <header>
+      <div class="container">
+      <div class="mynav" id="myNav">
       <img src="https://jinglyu.net/wp-content/uploads/2019/07/cropped-cropped-screen-shot-2019-07-10-at-1.32.26-pm.png" alt="Your Logo">
       <nav>
         <ul>
@@ -16,21 +23,30 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+      </div>
+      </div>
     </header>
-  <div>
-    <div>
-      <h1>Hey there!</h1>
-      <h2>I’m Jing, a <span>UX</span> and <span>UI designer</span> at Dallas, TX.</h2>
-    </div>
-  </div>
+
   <main>
+    <div id="hero">
+      <!--open hero section-->
+      <div class="container">
+        <h1>Hey there!</h1>
+        <h2>I’m Jing, a <span>UX</span> and <span>UI designer</span> at Dallas, TX.</h2>
+      </div>
+    </div>
+    <!--close hero section-->
+    <hr>
+
     <div>
       <div>
-        <div>
-          <div>
+        <div id="work">
+          <!--open work section-->
+          <div class="container">
+
             <h3>EXPERTS APP</h3>
             <p>The goal of this app is to give people a simple, intuitive way to connect with an expert in nearly any field within seconds so they can feel more informed and more prepared to face their everyday (and not-so-everyday) problems. The app allows you to pose a question to any expert and, if they feel they are the best to answer it, they can schedule a short video session for you to ask away! The app will be free to use but will require payment for any video calls done over the platform.</p>
-            <a href="#">Read More</a>
+            <a href="#" class="button">Read more</a>
           </div>
           <div>
             <picture>
@@ -43,7 +59,7 @@
             <h3>WHALE GRACE MUSIC APP</h3>
             <p>Whale Grace Music was designed for people who want to understand the basic concept of Music Theory and make good use of it. It contains recommended songs, radio channel, feeling function, and the community function. People can share nice songs with the same preferences or same mood and also can publish their songs.
             </p>
-            <a href="#">Read More</a>
+            <a href="#" class="button">Read more</a>
           </div>
           <div>
             <picture>
@@ -54,12 +70,13 @@
         </div>
       </div>
   </main>
+  <hr>
   <footer id="contact">
     <div>
       <div>
         <h4>Contact</h4>
         <p>Reach out to me and let's work together!</p>
-        <a href="mailto:contact@jinglyu.net">Send Me an Email</a>
+        <a href="mailto:contact@jinglyu.net" class="button contact">Send Me an Email</a>
       </div>
       <div>
       <h4>Connect</h4>
