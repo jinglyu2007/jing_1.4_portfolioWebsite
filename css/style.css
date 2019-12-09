@@ -93,10 +93,12 @@ a:focus {
 /* Layout styling */
 .container {
   padding: 0 15px;
+
 }
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
+
 
 
 #hero h1 {
@@ -180,7 +182,7 @@ Medium devices (640px and larger)
     float: right;
     margin-top: 4px;
   }
-}
+
 .col-md-6 {
   width: 50%;
 }
@@ -201,6 +203,8 @@ Medium devices (640px and larger)
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+
+}
 }
 
 /* Large Devices (1024px and and larger) */
@@ -258,4 +262,12 @@ Medium devices (640px and larger)
 }
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+#contact {
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+
 }
