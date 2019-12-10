@@ -108,25 +108,28 @@ a:focus {
   max-width: 150px;
 }
 header {
-
-
   padding: 10px 0 4px;
 }
+
 .navtoggle li:not(:last-child) {
   display: none;
 }
+
 .navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
   border-top: 1px solid rgba(255,127,80,0.5);
 }
 
-.navtoggle, .navtoggle.responsive {
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
 }
+
 .navtoggle.responsive li:last-child  {
   padding: 0 0 10px;
 }
+
 .navtoggle li .icon {
   position: absolute;
   right: 0;
@@ -134,10 +137,9 @@ header {
   font-size: 20px;
   padding-right: 0;
 }
-nav {
-  display: inline-block;
-  width: 100%;
-}
+
+
+
 nav > ul {
   list-style-type: none;
   padding: 0;
@@ -150,18 +152,21 @@ nav > ul > li > a {
   font-weight: 400;
   color: #BA55D3;
 }
+
 nav {
   display: inline-block;
   width: 100%;
 }
+
 #hero {
   padding: 20px 0;
   display: inline-block;
   width: 100%;
   text-align: center;
 }
+
 main {
-  padding-top: 56px;
+  padding-top: 80px;
 }
 
 /* ==============================
